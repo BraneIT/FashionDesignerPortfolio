@@ -1,0 +1,13 @@
+.buttons{
+    padding: 8px 16px;
+    background-color: rgb(4, 126, 4);
+    color: #fff;
+    border-radius: 10px;
+    transition:  0.2s ease;
+    text-decoration: none;
+}
+.buttons:hover{
+   background-color: #fff;
+   color: #fff;
+   transform: scale(1.05);
+}

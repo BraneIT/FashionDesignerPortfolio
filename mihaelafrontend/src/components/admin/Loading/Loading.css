@@ -1,0 +1,23 @@
+/* HTML: <div class="loader"></div> */
+.loader-black {
+  width: 100px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 20px solid;
+  border-color: #000 #0000;
+  animation: l1 1s infinite;
+}
+@keyframes l1 {to{transform: rotate(.5turn)}}
+.loading-container {
+  height: 80dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+@media screen and (max-width: 1400px) {
+  .loading-container{
+    height: 70dvh;
+  }
+}

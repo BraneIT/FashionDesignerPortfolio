@@ -1,0 +1,16 @@
+.projects-list{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+.project-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    background-color:#91A3B0 ;
+    border-radius: 12px;
+}

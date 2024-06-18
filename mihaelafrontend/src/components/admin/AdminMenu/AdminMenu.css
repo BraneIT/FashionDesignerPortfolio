@@ -1,0 +1,27 @@
+.admin-menu{
+    width: 20%;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    background-color: rgb(31, 31, 31);
+    height: auto;
+}
+.admin-menu-container{
+    padding: 16px;
+    width: 75%;
+    height: 100dvh;
+}
+.menu-items{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}

@@ -1,0 +1,41 @@
+.add-project-form{
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15% 0;
+}
+.form-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 8px 0;
+}
+.form-group > input{
+    width: 40%;
+    padding: 8px;
+}
+.form-group > textarea{
+    width: 40%;
+    padding: 8px;
+}
+.form-group > select{
+    width: 20%;
+    padding: 8px;
+}
+.hidden{
+    display: none;
+}
+.submit-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.errors{
+    color: #cc0000;
+}
